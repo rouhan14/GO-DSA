@@ -45,6 +45,4 @@ of stack (does not remove it). */
 func (s *StackInt) Top() int {
 	//Implement your solution here
 	return s.s[len(s.s)-1]
-
-	return 0 //Kindly make changes according to your needs
 }
